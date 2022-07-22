@@ -1,10 +1,23 @@
-root = true
+#root = true
 
 #todos los archivos que terminen en  .cs
-[*.cs]
+#[*.cs]
 
 #utilizara el tabulador el caracter  \t
-indent_style = tab 
+#indent_style = tab 
 
 #usara espacios separador con 2 espacio
-indent_size = 4
+#indent_size = 4
+
+root = true
+[*.cs]
+
+csharp_new_line_before_open_brace = none
+csharp_new_line_before_catch = false
+csharp_new_line_before_else = false
+csharp_new_line_before_finally = false
+csharp_new_line_before_members_in_anonymous_types = false
+csharp_new_line_before_members_in_object_initializers = false
+csharp_new_line_between_query_expression_clauses = true
+ident_style = true
+

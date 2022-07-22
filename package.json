@@ -1,0 +1,28 @@
+{
+  "name": "microserviciorserva_ic",
+  "version": "1.0.0",
+  "description": "Actividad 2 de Microservicio Reserva",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavito12/MicroservicioRserva_IC.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gustavito12/MicroservicioRserva_IC/issues"
+  },
+  "homepage": "https://github.com/gustavito12/MicroservicioRserva_IC#readme",
+  "devDependencies": {
+    "husky": "^8.0.0",
+    "lint-staged": "^13.0.3"
+  },
+  "lint-staged": {
+    "*.cs": "dotnet-format --include"
+  }
+}
