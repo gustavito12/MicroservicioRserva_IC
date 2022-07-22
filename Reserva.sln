@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShareKernel", "ShareKernel\ShareKernel.csproj", "{75841D15-EE22-46FE-8F9F-BF7B02DA3A99}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reservas.Domain", "Reserva.Domain\Reservas.Domain.csproj", "{6BDD3661-A2C6-4D25-A88F-0CD94D1963A4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reservas.Infraestructure", "Reservas.Infraestructure\Reservas.Infraestructure.csproj", "{1609770D-E669-4608-A6A5-065A8C2E854B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reservas.Application", "Reservas.Application\Reservas.Application.csproj", "{D2D88DFD-25C7-401B-A68D-8D5EEA3EE39B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reservas.WebApi", "Reservas.WebApi\Reservas.WebApi.csproj", "{AE3B1C8E-8A72-4559-A126-E423401F2244}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Reservas.Test", "Reservas.Test\Reservas.Test.csproj", "{14458C3C-439E-4201-90A3-F4F19D21DA2F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C7EFC809-AF8E-46E6-88B2-F48942DE663B}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{75841D15-EE22-46FE-8F9F-BF7B02DA3A99}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75841D15-EE22-46FE-8F9F-BF7B02DA3A99}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75841D15-EE22-46FE-8F9F-BF7B02DA3A99}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75841D15-EE22-46FE-8F9F-BF7B02DA3A99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BDD3661-A2C6-4D25-A88F-0CD94D1963A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BDD3661-A2C6-4D25-A88F-0CD94D1963A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BDD3661-A2C6-4D25-A88F-0CD94D1963A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BDD3661-A2C6-4D25-A88F-0CD94D1963A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1609770D-E669-4608-A6A5-065A8C2E854B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1609770D-E669-4608-A6A5-065A8C2E854B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1609770D-E669-4608-A6A5-065A8C2E854B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1609770D-E669-4608-A6A5-065A8C2E854B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2D88DFD-25C7-401B-A68D-8D5EEA3EE39B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2D88DFD-25C7-401B-A68D-8D5EEA3EE39B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2D88DFD-25C7-401B-A68D-8D5EEA3EE39B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2D88DFD-25C7-401B-A68D-8D5EEA3EE39B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE3B1C8E-8A72-4559-A126-E423401F2244}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE3B1C8E-8A72-4559-A126-E423401F2244}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE3B1C8E-8A72-4559-A126-E423401F2244}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE3B1C8E-8A72-4559-A126-E423401F2244}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14458C3C-439E-4201-90A3-F4F19D21DA2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14458C3C-439E-4201-90A3-F4F19D21DA2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14458C3C-439E-4201-90A3-F4F19D21DA2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14458C3C-439E-4201-90A3-F4F19D21DA2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2F904FDA-D7F3-4E72-BBE1-DF3B69FEAC35}
+	EndGlobalSection
+EndGlobal
