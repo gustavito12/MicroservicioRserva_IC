@@ -12,7 +12,7 @@ using System.Threading.Tasks;
 namespace Reservas.Application {
     public static class Extensions {
         public static IServiceCollection AddApplication(this IServiceCollection services) {
-            services.AddMediatR(Assembly.GetExecutingAssembly(
+            services.AddMediatR(Assembly.GetExecutingAssembly());
             services.AddTransient<IReservaService, ReservaService>();
             services.AddTransient<IReservaFactory, ReservaFactory>();
 
