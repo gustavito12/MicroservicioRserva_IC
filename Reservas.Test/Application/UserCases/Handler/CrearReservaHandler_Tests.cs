@@ -61,7 +61,7 @@ namespace Reservas.Test.Application.UserCases.Handler {
             Assert.IsType<Guid>(result.Result);
 
             var domainEventList = (List<DomainEvent>)reservaTest.DomainEvents;
-            Assert.Equal(4, domainEventList.Count);
+            Assert.Equal(2, domainEventList.Count);
             Assert.IsType<ReservaRealizada>(domainEventList[1]);
         }
         [Fact]
