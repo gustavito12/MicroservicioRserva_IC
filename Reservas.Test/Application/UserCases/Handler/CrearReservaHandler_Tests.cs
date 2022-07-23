@@ -66,7 +66,7 @@ namespace Reservas.Test.Application.UserCases.Handler {
         }
         [Fact]
         public void CrearReservaHandler_Handle_Fail() {
-            // Failing by returning null values prueba
+            // Failing by returning null values prueba#
             var objHandler = new CrearReservaHandler(
                reservaRepository.Object,
                logger.Object,
