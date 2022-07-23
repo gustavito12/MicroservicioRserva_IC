@@ -1,4 +1,4 @@
-﻿using Moq;
+﻿//using Moq;
 using Reservas.Application.Dto.Reserva;
 using System;
 using System.Collections.Generic;
@@ -7,13 +7,10 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Reservas.Test.Application.Dto
-{
-    public class ReservaDto_Tests
-    {
+namespace Reservas.Test.Application.Dto {
+    public class ReservaDto_Tests {
         [Fact]
-        public void RservaDto_CheckPropertiesValid()
-        {
+        public void RservaDto_CheckPropertiesValid() {
             var idTest = Guid.NewGuid();
             var nroReservaTest = 5;
             var detalleReservaTest = GetDetalleReserva();
@@ -21,7 +18,7 @@ namespace Reservas.Test.Application.Dto
             var objReserva = new ReservaDto();
 
             Assert.Equal(Guid.Empty, objReserva.Id);
-            Assert.Equal(0,objReserva.IdReserva);
+            Assert.Equal(0, objReserva.IdReserva);
             Assert.Empty((System.Collections.IEnumerable)objReserva.Detalle);
 
             objReserva.Id = idTest;
@@ -33,10 +30,8 @@ namespace Reservas.Test.Application.Dto
             Assert.Equal(detalleReservaTest, objReserva.Detalle);
         }
 
-        private object GetDetalleReserva()
-        {
-            DetalleReservaDto DetalleReserva = new()
-            {
+        private object GetDetalleReserva() {
+            DetalleReservaDto DetalleReserva = new() {
                 FechaReserva = new DateTime(),
                 Importe = 5.4m,
                 Estado = 1,
