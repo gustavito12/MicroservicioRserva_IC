@@ -3,4 +3,4 @@
 
 npx lint-staged --relative
 
-#npm test
+#dotnet test
