@@ -17,10 +17,8 @@ using System.Threading.Tasks;
 using Xunit;
 using static Moq.It;
 
-namespace Reservas.Test.Application.UserCases.Handler
-{
-    public class CrearReservaHandler_Tests
-    {
+namespace Reservas.Test.Application.UserCases.Handler {
+    public class CrearReservaHandler_Tests {
         private readonly Mock<ReservaRepositories> reservaRepository;
         private readonly Mock<ILogger<CrearReservaHandler>> logger;
         private readonly Mock<IReservaService> reservaService;
@@ -32,8 +30,7 @@ namespace Reservas.Test.Application.UserCases.Handler
         private DetalleReservaDto detalleReservaTest = new DetalleReservaDto();
 
 
-        public CrearReservaHandler_Tests()
-        {
+        public CrearReservaHandler_Tests() {
             reservaRepository = new Mock<ReservaRepositories>();
             logger = new Mock<ILogger<CrearReservaHandler>>();
             reservaService = new Mock<IReservaService>();
@@ -43,8 +40,7 @@ namespace Reservas.Test.Application.UserCases.Handler
         }
 
         [Fact]
-        public void CrearReservaHandler_HandleCorrectly()
-        {
+        public void CrearReservaHandler_HandleCorrectly() {
             reservaService.Setup(reservaService => reservaService.GenerarIdReservaAsync()).Returns(Task.FromResult(idReservaTest));
             reservaFactory.Setup(reservaFactory => reservaFactory.Create(idReservaTest)).Returns(reservaTest);
             var objHandler = new CrearReservaHandler(
@@ -65,12 +61,11 @@ namespace Reservas.Test.Application.UserCases.Handler
             Assert.IsType<Guid>(result.Result);
 
             var domainEventList = (List<DomainEvent>)reservaTest.DomainEvents;
-            Assert.Equal(4, domainEventList.Count);
-            Assert.IsType<ReservaRealizada>(domainEventList[3]);
+            Assert.Equal(2, domainEventList.Count);
+            Assert.IsType<ReservaRealizada>(domainEventList[1]);
         }
         [Fact]
-        public void CrearReservaHandler_Handle_Fail()
-        {
+        public void CrearReservaHandler_Handle_Fail() {
             // Failing by returning null values
             var objHandler = new CrearReservaHandler(
                reservaRepository.Object,

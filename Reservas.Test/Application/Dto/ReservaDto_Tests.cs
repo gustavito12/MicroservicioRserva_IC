@@ -19,7 +19,7 @@ namespace Reservas.Test.Application.Dto {
 
             Assert.Equal(Guid.Empty, objReserva.Id);
             Assert.Equal(0, objReserva.IdReserva);
-            Assert.Empty((System.Collections.IEnumerable)objReserva.Detalle);
+            Assert.NotNull(objReserva.Detalle);
 
             objReserva.Id = idTest;
             objReserva.IdReserva = nroReservaTest;

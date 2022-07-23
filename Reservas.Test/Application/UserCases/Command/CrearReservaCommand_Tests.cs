@@ -7,22 +7,18 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace Reservas.Test.Application.UserCases.Command
-{
-    public class CrearReservaCommand_Tests
-    {
+namespace Reservas.Test.Application.UserCases.Command {
+    public class CrearReservaCommand_Tests {
         [Fact]
-        public void IsRequest_Valid()
-        {
+        public void IsRequest_Valid() {
             var detalleTest = new DetalleReservaDto();
             var command = new CrearReservaCommand(detalleTest);
 
-            Assert.Empty((System.Collections.IEnumerable)command.Detalle);
+            Assert.NotNull(command.Detalle);
         }
 
         [Fact]
-        public void TestConstructor_IsPrivate()
-        {
+        public void TestConstructor_IsPrivate() {
             var command = (CrearReservaCommand)Activator.CreateInstance(typeof(CrearReservaCommand), true);
             Assert.Null(command.Detalle);
         }
