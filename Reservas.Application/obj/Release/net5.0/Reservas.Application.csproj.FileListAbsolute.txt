@@ -1,0 +1,17 @@
+D:\MI ESCRITORIO\DIPLOMADO DE ARQUITECTURA DE SOFTWARE\MODULO 5\ACTIVIDAD 5\MicroservicioRserva_IC\Reservas.Application\bin\Release\net5.0\Reservas.Application.deps.json
+D:\MI ESCRITORIO\DIPLOMADO DE ARQUITECTURA DE SOFTWARE\MODULO 5\ACTIVIDAD 5\MicroservicioRserva_IC\Reservas.Application\bin\Release\net5.0\Reservas.Application.dll
+D:\MI ESCRITORIO\DIPLOMADO DE ARQUITECTURA DE SOFTWARE\MODULO 5\ACTIVIDAD 5\MicroservicioRserva_IC\Reservas.Application\bin\Release\net5.0\ref\Reservas.Application.dll
+D:\MI ESCRITORIO\DIPLOMADO DE ARQUITECTURA DE SOFTWARE\MODULO 5\ACTIVIDAD 5\MicroservicioRserva_IC\Reservas.Application\bin\Release\net5.0\Reservas.Application.pdb
+D:\MI ESCRITORIO\DIPLOMADO DE ARQUITECTURA DE SOFTWARE\MODULO 5\ACTIVIDAD 5\MicroservicioRserva_IC\Reservas.Application\bin\Release\net5.0\Reservas.Domain.dll
+D:\MI ESCRITORIO\DIPLOMADO DE ARQUITECTURA DE SOFTWARE\MODULO 5\ACTIVIDAD 5\MicroservicioRserva_IC\Reservas.Application\bin\Release\net5.0\ShareKernel.dll
+D:\MI ESCRITORIO\DIPLOMADO DE ARQUITECTURA DE SOFTWARE\MODULO 5\ACTIVIDAD 5\MicroservicioRserva_IC\Reservas.Application\bin\Release\net5.0\Reservas.Domain.pdb
+D:\MI ESCRITORIO\DIPLOMADO DE ARQUITECTURA DE SOFTWARE\MODULO 5\ACTIVIDAD 5\MicroservicioRserva_IC\Reservas.Application\bin\Release\net5.0\ShareKernel.pdb
+D:\MI ESCRITORIO\DIPLOMADO DE ARQUITECTURA DE SOFTWARE\MODULO 5\ACTIVIDAD 5\MicroservicioRserva_IC\Reservas.Application\obj\Release\net5.0\Reservas.Application.csproj.AssemblyReference.cache
+D:\MI ESCRITORIO\DIPLOMADO DE ARQUITECTURA DE SOFTWARE\MODULO 5\ACTIVIDAD 5\MicroservicioRserva_IC\Reservas.Application\obj\Release\net5.0\Reservas.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\MI ESCRITORIO\DIPLOMADO DE ARQUITECTURA DE SOFTWARE\MODULO 5\ACTIVIDAD 5\MicroservicioRserva_IC\Reservas.Application\obj\Release\net5.0\Reservas.Application.AssemblyInfoInputs.cache
+D:\MI ESCRITORIO\DIPLOMADO DE ARQUITECTURA DE SOFTWARE\MODULO 5\ACTIVIDAD 5\MicroservicioRserva_IC\Reservas.Application\obj\Release\net5.0\Reservas.Application.AssemblyInfo.cs
+D:\MI ESCRITORIO\DIPLOMADO DE ARQUITECTURA DE SOFTWARE\MODULO 5\ACTIVIDAD 5\MicroservicioRserva_IC\Reservas.Application\obj\Release\net5.0\Reservas.Application.csproj.CoreCompileInputs.cache
+D:\MI ESCRITORIO\DIPLOMADO DE ARQUITECTURA DE SOFTWARE\MODULO 5\ACTIVIDAD 5\MicroservicioRserva_IC\Reservas.Application\obj\Release\net5.0\Reservas.Application.csproj.CopyComplete
+D:\MI ESCRITORIO\DIPLOMADO DE ARQUITECTURA DE SOFTWARE\MODULO 5\ACTIVIDAD 5\MicroservicioRserva_IC\Reservas.Application\obj\Release\net5.0\Reservas.Application.dll
+D:\MI ESCRITORIO\DIPLOMADO DE ARQUITECTURA DE SOFTWARE\MODULO 5\ACTIVIDAD 5\MicroservicioRserva_IC\Reservas.Application\obj\Release\net5.0\ref\Reservas.Application.dll
+D:\MI ESCRITORIO\DIPLOMADO DE ARQUITECTURA DE SOFTWARE\MODULO 5\ACTIVIDAD 5\MicroservicioRserva_IC\Reservas.Application\obj\Release\net5.0\Reservas.Application.pdb
