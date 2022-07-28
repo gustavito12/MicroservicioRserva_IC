@@ -9,22 +9,18 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Reservas.WebApi.Controllers
-{
+namespace Reservas.WebApi.Controllers {
     [ApiController]
     [Route("/api/[controller]")]
-    public class ReservaController : Controller
-    {
+    public class ReservaController : Controller {
         private readonly IMediator _mediator;
 
-        public ReservaController(IMediator mediator)
-        {
+        public ReservaController(IMediator mediator) {
             _mediator = mediator;
         }
 
         [HttpPost]
-        public async Task<IActionResult> Create([FromBody] CrearReservaCommand command)
-        {
+        public async Task<IActionResult> Create([FromBody] CrearReservaCommand command) {
             Guid id = await _mediator.Send(command);
 
             if (id == Guid.Empty)
@@ -35,8 +31,7 @@ namespace Reservas.WebApi.Controllers
 
         [Route("{id:guid}")]
         [HttpGet]
-        public async Task<IActionResult> GetPedidoById([FromRoute] GetReservaByIdQuery command)
-        {
+        public async Task<IActionResult> GetPedidoById([FromRoute] GetReservaByIdQuery command) {
             ReservaDto result = await _mediator.Send(command);
 
             if (result == null)
@@ -47,8 +42,18 @@ namespace Reservas.WebApi.Controllers
 
         [Route("search")]
         [HttpPost]
-        public async Task<IActionResult> Search([FromBody] SearchReservaQuery query)
-        {
+        public async Task<IActionResult> Search([FromBody] SearchReservaQuery query) {
+            var reservas = await _mediator.Send(query);
+
+            if (reservas == null)
+                return BadRequest();
+
+            return Ok(reservas);
+        }
+
+        [Route("Search_Todo")]
+        [HttpPost]
+        public async Task<IActionResult> Search_Todo([FromBody] SearchReservaQuery query) {
             var reservas = await _mediator.Send(query);
 
             if (reservas == null)
