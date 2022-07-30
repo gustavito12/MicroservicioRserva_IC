@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "epdM4jtam9dXpbJS2hraX9sSgFpC5s1P448tky99ZQLkat38GInEv5Fep1O2BON0K3ay+RvQnyDXTIVsQy0Hag==",
+  "dgSpecHash": "1fQ3krnIUE79mkVHlZXHsaOoNGkgP/8sJY+1T6FICGil2ensdHSPwhfWR2L0/e2SKTV9vjUI3AkefNO5d5JWag==",
   "success": true,
-  "projectFilePath": "D:\\MI ESCRITORIO\\DIPLOMADO DE ARQUITECTURA DE SOFTWARE\\MODULO 5\\ACTIVIDAD 5\\MicroservicioRserva_IC\\Reserva.Domain\\Reservas.Domain.csproj",
+  "projectFilePath": "D:\\MI ESCRITORIO\\DIPLOMADO DE ARQUITECTURA DE SOFTWARE\\MODULO 5_INTEGRACIÓN CONTINUA\\ACTIVIDAD 5\\MicroservicioRserva_IC\\Reserva.Domain\\Reservas.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

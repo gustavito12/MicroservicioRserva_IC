@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XVc8cokUnXX8RC2Uil0WcCcBv8k9s89cZ4cxTi6f9eV/gxLhvQOCxBSDsM5aOmdLg1O3Wu7PNzUiZUFDoPKQkg==",
+  "dgSpecHash": "eAp4afOAPpq0p9AZrMD0MDHV9ulny20R0NKr/IaIKOuuKMtDS+MT1hwKKSv5++3DbEcrA2p+uCE4wBL1Pqsn1g==",
   "success": true,
-  "projectFilePath": "D:\\MI ESCRITORIO\\DIPLOMADO DE ARQUITECTURA DE SOFTWARE\\MODULO 5\\ACTIVIDAD 5\\MicroservicioRserva_IC\\ShareKernel\\ShareKernel.csproj",
+  "projectFilePath": "D:\\MI ESCRITORIO\\DIPLOMADO DE ARQUITECTURA DE SOFTWARE\\MODULO 5_INTEGRACIÓN CONTINUA\\ACTIVIDAD 5\\MicroservicioRserva_IC\\ShareKernel\\ShareKernel.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

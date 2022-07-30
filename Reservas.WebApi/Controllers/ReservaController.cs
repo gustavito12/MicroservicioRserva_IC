@@ -51,7 +51,7 @@ namespace Reservas.WebApi.Controllers {
             return Ok(reservas);
         }
 
-        [Route("Search_Todo")]
+        /*[Route("Search_Todo")]
         [HttpPost]
         public async Task<IActionResult> Search_Todo([FromBody] SearchReservaQuery query) {
             var reservas = await _mediator.Send(query);
@@ -60,6 +60,6 @@ namespace Reservas.WebApi.Controllers {
                 return BadRequest();
 
             return Ok(reservas);
-        }
+        }*/
     }
 }

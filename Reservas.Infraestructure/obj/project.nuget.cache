@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AgUlcs7tboXrXUBE4ja0dh+0eGUdUGDqKyi0DJNdbk/h3ZhIA0KXnCNzKuFQ8FC/RXOBOOGmyFbWwQrmsZatqQ==",
+  "dgSpecHash": "9FeOn0EyBCDOd9xd30bPoLSFpc5KL3+m90M2G+mUu3ZRh8hK//m/e2IkDwaRtAhVWcpxGfA9PXjHeWtRfM9zHQ==",
   "success": true,
-  "projectFilePath": "D:\\MI ESCRITORIO\\DIPLOMADO DE ARQUITECTURA DE SOFTWARE\\MODULO 5\\ACTIVIDAD 5\\MicroservicioRserva_IC\\Reservas.Infraestructure\\Reservas.Infraestructure.csproj",
+  "projectFilePath": "D:\\MI ESCRITORIO\\DIPLOMADO DE ARQUITECTURA DE SOFTWARE\\MODULO 5_INTEGRACIÓN CONTINUA\\ACTIVIDAD 5\\MicroservicioRserva_IC\\Reservas.Infraestructure\\Reservas.Infraestructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\GUSAVT\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\GUSAVT\\.nuget\\packages\\mediatr\\10.0.1\\mediatr.10.0.1.nupkg.sha512",

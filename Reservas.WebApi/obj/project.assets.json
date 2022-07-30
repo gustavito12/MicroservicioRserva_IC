@@ -6265,11 +6265,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\MI ESCRITORIO\\DIPLOMADO DE ARQUITECTURA DE SOFTWARE\\MODULO 5\\ACTIVIDAD 5\\MicroservicioRserva_IC\\Reservas.WebApi\\Reservas.WebApi.csproj",
+      "projectUniqueName": "D:\\MI ESCRITORIO\\DIPLOMADO DE ARQUITECTURA DE SOFTWARE\\MODULO 5_INTEGRACIÓN CONTINUA\\ACTIVIDAD 5\\MicroservicioRserva_IC\\Reservas.WebApi\\Reservas.WebApi.csproj",
       "projectName": "Reservas.WebApi",
-      "projectPath": "D:\\MI ESCRITORIO\\DIPLOMADO DE ARQUITECTURA DE SOFTWARE\\MODULO 5\\ACTIVIDAD 5\\MicroservicioRserva_IC\\Reservas.WebApi\\Reservas.WebApi.csproj",
+      "projectPath": "D:\\MI ESCRITORIO\\DIPLOMADO DE ARQUITECTURA DE SOFTWARE\\MODULO 5_INTEGRACIÓN CONTINUA\\ACTIVIDAD 5\\MicroservicioRserva_IC\\Reservas.WebApi\\Reservas.WebApi.csproj",
       "packagesPath": "C:\\Users\\GUSAVT\\.nuget\\packages\\",
-      "outputPath": "D:\\MI ESCRITORIO\\DIPLOMADO DE ARQUITECTURA DE SOFTWARE\\MODULO 5\\ACTIVIDAD 5\\MicroservicioRserva_IC\\Reservas.WebApi\\obj\\",
+      "outputPath": "D:\\MI ESCRITORIO\\DIPLOMADO DE ARQUITECTURA DE SOFTWARE\\MODULO 5_INTEGRACIÓN CONTINUA\\ACTIVIDAD 5\\MicroservicioRserva_IC\\Reservas.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -6289,11 +6289,11 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "D:\\MI ESCRITORIO\\DIPLOMADO DE ARQUITECTURA DE SOFTWARE\\MODULO 5\\ACTIVIDAD 5\\MicroservicioRserva_IC\\Reservas.Application\\Reservas.Application.csproj": {
-              "projectPath": "D:\\MI ESCRITORIO\\DIPLOMADO DE ARQUITECTURA DE SOFTWARE\\MODULO 5\\ACTIVIDAD 5\\MicroservicioRserva_IC\\Reservas.Application\\Reservas.Application.csproj"
+            "D:\\MI ESCRITORIO\\DIPLOMADO DE ARQUITECTURA DE SOFTWARE\\MODULO 5_INTEGRACIÓN CONTINUA\\ACTIVIDAD 5\\MicroservicioRserva_IC\\Reservas.Application\\Reservas.Application.csproj": {
+              "projectPath": "D:\\MI ESCRITORIO\\DIPLOMADO DE ARQUITECTURA DE SOFTWARE\\MODULO 5_INTEGRACIÓN CONTINUA\\ACTIVIDAD 5\\MicroservicioRserva_IC\\Reservas.Application\\Reservas.Application.csproj"
             },
-            "D:\\MI ESCRITORIO\\DIPLOMADO DE ARQUITECTURA DE SOFTWARE\\MODULO 5\\ACTIVIDAD 5\\MicroservicioRserva_IC\\Reservas.Infraestructure\\Reservas.Infraestructure.csproj": {
-              "projectPath": "D:\\MI ESCRITORIO\\DIPLOMADO DE ARQUITECTURA DE SOFTWARE\\MODULO 5\\ACTIVIDAD 5\\MicroservicioRserva_IC\\Reservas.Infraestructure\\Reservas.Infraestructure.csproj"
+            "D:\\MI ESCRITORIO\\DIPLOMADO DE ARQUITECTURA DE SOFTWARE\\MODULO 5_INTEGRACIÓN CONTINUA\\ACTIVIDAD 5\\MicroservicioRserva_IC\\Reservas.Infraestructure\\Reservas.Infraestructure.csproj": {
+              "projectPath": "D:\\MI ESCRITORIO\\DIPLOMADO DE ARQUITECTURA DE SOFTWARE\\MODULO 5_INTEGRACIÓN CONTINUA\\ACTIVIDAD 5\\MicroservicioRserva_IC\\Reservas.Infraestructure\\Reservas.Infraestructure.csproj"
             }
           }
         }
