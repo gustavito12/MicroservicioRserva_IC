@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = Reservas.WebApi
-build_property.ProjectDir = D:\MI ESCRITORIO\DIPLOMADO DE ARQUITECTURA DE SOFTWARE\MODULO 5\ACTIVIDAD 5\MicroservicioRserva_IC\Reservas.WebApi\
+build_property.ProjectDir = D:\MI ESCRITORIO\DIPLOMADO DE ARQUITECTURA DE SOFTWARE\MODULO 5_INTEGRACIÓN CONTINUA\ACTIVIDAD 5\MicroservicioRserva_IC\Reservas.WebApi\
